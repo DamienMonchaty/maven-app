@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fr.formation.services.CalculTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.398 s - in fr.formation.services.CalculTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.48 s - in fr.formation.services.CalculTest

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.formation.services.CalculTest" time="20.398" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.formation.services.CalculTest" time="1.48" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Users\Dell\Downloads\openjdk-21_windows-x64_bin\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982\surefirebooter-20231222121854833_3.jar C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982 2023-12-22T12-18-51_534-jvmRun1 surefire-20231222121854833_1tmp surefire_0-20231222121854833_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire3036989672757312373\surefirebooter-20231222160247247_3.jar C:\Users\Dell\AppData\Local\Temp\surefire3036989672757312373 2023-12-22T16-02-46_439-jvmRun1 surefire-20231222160247247_1tmp surefire_0-20231222160247247_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dell"/>
     <property name="user.language" value="fr"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982\surefirebooter-20231222121854833_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire3036989672757312373\surefirebooter-20231222160247247_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-2513"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="repetition 1 of 3(Test de la méthode somme" classname="...)" time="17.739">
+  <testcase name="repetition 1 of 3(Test de la méthode somme" classname="...)" time="0.129">
     <system-out><![CDATA[*** TEST DETAILS ***
 *** Nom du test *** : repetition 1 of 3
 *** Nom de la méthode *** : testSomme
@@ -69,7 +69,7 @@
 *** Répétitions totales *** : 3
 ]]></system-out>
   </testcase>
-  <testcase name="repetition 2 of 3(Test de la méthode somme" classname="...)" time="1.027">
+  <testcase name="repetition 2 of 3(Test de la méthode somme" classname="...)" time="0.178">
     <system-out><![CDATA[*** TEST DETAILS ***
 *** Nom du test *** : repetition 2 of 3
 *** Nom de la méthode *** : testSomme
@@ -78,7 +78,7 @@
 *** Répétitions totales *** : 3
 ]]></system-out>
   </testcase>
-  <testcase name="repetition 3 of 3(Test de la méthode somme" classname="...)" time="0.337">
+  <testcase name="repetition 3 of 3(Test de la méthode somme" classname="...)" time="0.034">
     <system-out><![CDATA[*** TEST DETAILS ***
 *** Nom du test *** : repetition 3 of 3
 *** Nom de la méthode *** : testSomme
@@ -87,7 +87,27 @@
 *** Répétitions totales *** : 3
 ]]></system-out>
   </testcase>
-  <testcase name="Test de la méthode division(...)" classname="CalculTest" time="0.12">
+  <testcase name="Test de la methode soustraction(...)" classname="CalculTest" time="0.032">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : Test de la methode soustraction(...)
+*** Nom du tag ***  : []
+*** Nom de la méthode *** : testSoustraction
+]]></system-out>
+  </testcase>
+  <testcase name="Test de la methode multiplication(...)" classname="CalculTest" time="0.021">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : Test de la methode multiplication(...)
+*** Nom du tag ***  : []
+*** Nom de la méthode *** : testMultiplication
+]]></system-out>
+  </testcase>
+  <testcase name="Test de la methode division(...) - Exception attendue" classname="CalculTest" time="0.018">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : Test de la methode division(...) - Exception attendue
+*** Nom de la méthode *** : testDivisionByZero
+]]></system-out>
+  </testcase>
+  <testcase name="Test de la méthode division(...)" classname="CalculTest" time="0.016">
     <system-out><![CDATA[*** TEST DETAILS ***
 *** Nom du test *** : Test de la méthode division(...)
 *** Nom de la méthode *** : testDivision

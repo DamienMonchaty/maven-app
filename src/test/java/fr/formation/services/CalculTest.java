@@ -3,6 +3,7 @@ package fr.formation.services;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.AfterEach;
@@ -51,13 +52,54 @@ public class CalculTest {
     @DisplayName("Test de la méthode division(...)")
 	@Test
     void testDivision(TestInfo testInfo) {
-
         System.out.println("*** TEST DETAILS ***");
 		System.out.println("*** Nom du test *** : " + testInfo.getDisplayName());
 		System.out.println("*** Nom de la méthode *** : " + testInfo.getTestMethod().get().getName());
         
 		assertEquals(2, calcul.division(-6, -3), "2 entiers negatifs");
 		assertNotNull(calcul.division(-6, 3), "2 entiers de signe different");
+        assertTrue(calcul.division(0, 3) == 0, "entier x nul");
     }
+
+    @DisplayName("Test de la methode division(...) - Exception attendue")
+	@Test
+	public void testDivisionByZero(TestInfo testInfo) {
+		
+		System.out.println("*** TEST DETAILS ***");
+		System.out.println("*** Nom du test *** : " + testInfo.getDisplayName());
+		System.out.println("*** Nom de la méthode *** : " + testInfo.getTestMethod().get().getName());
+		
+        assertThrows(ArithmeticException.class, () -> calcul.division(2, 0));
+	}
+
+    @DisplayName("Test de la methode multiplication(...)")
+	@Test
+	public void testMultiplication(TestInfo testInfo) {
+		
+		System.out.println("*** TEST DETAILS ***");
+		System.out.println("*** Nom du test *** : " + testInfo.getDisplayName());
+		System.out.println("*** Nom du tag ***  : " + testInfo.getTags());
+		System.out.println("*** Nom de la méthode *** : " + testInfo.getTestMethod().get().getName());
+		
+		assertFalse(calcul.multiplication(3, 4) == 7, "2 entiers positifs");
+		assertEquals(0 ,calcul.multiplication(0, 5), "Error Multiplication");
+		assertNotNull(calcul.multiplication(-6, 3), "Err 2 entiers");
+		assertTrue(calcul.multiplication(2, 6) == 12, "Entier x non null");	
+	}
+
+    @DisplayName("Test de la methode soustraction(...)")
+	@Test
+	public void testSoustraction(TestInfo testInfo) {
+		
+		System.out.println("*** TEST DETAILS ***");
+		System.out.println("*** Nom du test *** : " + testInfo.getDisplayName());
+		System.out.println("*** Nom du tag ***  : " + testInfo.getTags());
+		System.out.println("*** Nom de la méthode *** : " + testInfo.getTestMethod().get().getName());
+			
+		assertFalse(calcul.soustraction(2, 3) == 2, "2 entiers positifs");
+		assertEquals(1, calcul.soustraction(-2, -3), "2 entiers negatifs");
+		assertNotNull(calcul.soustraction(-2, 3), "2 entiers designe different");
+		assertTrue(calcul.soustraction(0, 0) == 0, "entier x nul");
+	}
 
 }
