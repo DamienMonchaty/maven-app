@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.formation.services.CalculTest" time="20.398" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="user.country.format" value="CH"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Users\Dell\Downloads\openjdk-21_windows-x64_bin\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982\surefirebooter-20231222121854833_3.jar C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982 2023-12-22T12-18-51_534-jvmRun1 surefire-20231222121854833_1tmp surefire_0-20231222121854833_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dell\Desktop\java\maven-app\target\test-classes;C:\Users\Dell\Desktop\java\maven-app\target\classes;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\Dell\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\Dell\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-junit-jupiter\2.23.0\mockito-junit-jupiter-2.23.0.jar;C:\Users\Dell\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Dell\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.3.1\junit-jupiter-params-5.3.1.jar;C:\Users\Dell\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Users\Dell\Downloads\openjdk-21_windows-x64_bin\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Dell\Desktop\java\maven-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire9058047433561355982\surefirebooter-20231222121854833_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-2513"/>
+    <property name="user.name" value="Dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="C:\Users\Dell\Desktop\java\maven-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="de"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Dell\Downloads\openjdk-21_windows-x64_bin\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Dell\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Dell\bin;C:\Users\Dell\Downloads\openjdk-21_windows-x64_bin\jdk-21\bin;C:\Users\Dell\Downloads\openjdk-20.0.2_windows-x64_bin\jdk-20.0.2\bin;C:\Program Files\Java\jdk-11.0.8\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Users\Dell\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Dell\Downloads\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Program Files\doxygen\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Users\Dell\AppData\Local\Android\Sdk\tools;C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools;C:\Users\Dell\AppData\Local\Android\Sdk\emulator;C:\Users\Dell\AppData\Local\Android\Sdk\tools;C:\Users\Dell\AppData\Local\Android\Sdk\platform-tools;C:\Users\Dell\AppData\Local\Android\Sdk\emulator;C:\Users\Dell\Downloads\gradle-8.3-bin\gradle-8.3\bin;C:\Program Files\Go\bin;C:\Program Files\dotnet;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Dell\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dell\.dotnet\tools;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\Dell\.dotnet\tools;C:\Users\Dell\go\bin;C:\Users\Dell\AppData\Local\gitkraken\bin;C:\Users\Dell\.dotnet\tools;C:\Users\Dell\AppData\Roaming\Composer\vendor\bin;C:\Users\Dell\.fly\bin;C:\Users\Dell\.dotnet\tools;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="repetition 1 of 3(Test de la méthode somme" classname="...)" time="17.739">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : repetition 1 of 3
+*** Nom de la méthode *** : testSomme
+*** REPETITION DETAILS ***
+*** Répétition courante *** : 1
+*** Répétitions totales *** : 3
+]]></system-out>
+  </testcase>
+  <testcase name="repetition 2 of 3(Test de la méthode somme" classname="...)" time="1.027">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : repetition 2 of 3
+*** Nom de la méthode *** : testSomme
+*** REPETITION DETAILS ***
+*** Répétition courante *** : 2
+*** Répétitions totales *** : 3
+]]></system-out>
+  </testcase>
+  <testcase name="repetition 3 of 3(Test de la méthode somme" classname="...)" time="0.337">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : repetition 3 of 3
+*** Nom de la méthode *** : testSomme
+*** REPETITION DETAILS ***
+*** Répétition courante *** : 3
+*** Répétitions totales *** : 3
+]]></system-out>
+  </testcase>
+  <testcase name="Test de la méthode division(...)" classname="CalculTest" time="0.12">
+    <system-out><![CDATA[*** TEST DETAILS ***
+*** Nom du test *** : Test de la méthode division(...)
+*** Nom de la méthode *** : testDivision
+]]></system-out>
+  </testcase>
+</testsuite>
